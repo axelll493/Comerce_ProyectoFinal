@@ -1,0 +1,114 @@
+.container-filter-orders-gral{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 24px;
+    gap: 3rem;
+    background-color: #fff;
+    margin: auto;
+    border-radius: 0.5rem;
+    margin-top: 2rem;
+    border-top: 5px solid #3483fa;
+    height: 5rem;
+}
+.container-all-order{
+    width: 50%;
+    margin: auto;
+}
+.div-buscador-order{
+    display:flex;
+    flex-direction:row;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    gap:2rem;
+}
+.div-filters-order{
+    display: flex;
+    padding: 8px 40px;
+    width: 100%;
+}
+@media (max-width: 700px){
+    .container-filter-orders-gral{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        font-size: 17px;
+        width: 90%;
+        gap: 1rem;
+        background-color: #fff;
+        margin: auto;
+        border-radius: 0.2rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        margin-top: 2rem;
+        border-top: 5px solid #3483fa;
+        height: 5rem;
+    }
+    .container-filters-order{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        gap:2rem;
+    }
+    .container-all-order{
+        width: 90%;
+        margin: auto;
+    }
+    .container-order{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        margin: auto;
+    }
+
+    .container-filter-order{
+        display:flex;
+        flex-direction:row;
+        justify-content: flex-start;
+        align-items: center;
+        width: 30%;
+        height: 5rem;
+        margin-top: 2rem;
+    }
+    .container-compras-detail{
+        display:flex;
+        flex-direction:column;
+        justify-content: flex-start;
+        align-items: center;
+        width: 90%;
+        height: 5rem;
+        margin-top: 2rem;
+    }
+
+    .div-buscador-order{
+        display:flex;
+        flex-direction:row;
+        justify-content: flex-start;    
+        width: 90%;
+        height: 2rem;
+        position: relative;
+        margin-top: 2rem;
+        margin-bottom: 0.3rem;
+    }
+    .input-buscador-order{
+        appearance: none;
+        background-color: rgba(0,0,0,.04);
+        border: none;
+        border-radius: 16px;
+        font-family: Proxima Nova,-apple-system,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
+        font-size: 14px;
+        height: 40px;
+        line-height: 16px;
+        margin: 0;
+        padding: 8px 40px;
+        width: 100%;
+    }
+    .lupa-buscador-order{
+        height: 18.5px;
+        position: absolute;
+        left: 10px;
+        top: 10px;
+    }}
